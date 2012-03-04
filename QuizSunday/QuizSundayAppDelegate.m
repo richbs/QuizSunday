@@ -35,6 +35,41 @@
     return self;
 }
 
+- (IBAction)showQuestion:(id)sender
+{
+    // increment current question
+    currentQuestionIndex++;
+    
+    if (currentQuestionIndex == [questions count]) {
+        
+        // revert to first question
+        currentQuestionIndex = 0;
+        
+    }
+    
+    // get the string
+    NSString *question = [questions objectAtIndex:currentQuestionIndex];
+    
+    // Log!
+    NSLog(@"displaying q: %@", question);
+    
+    [questionField setText:question];
+    
+    [answerField setText:@"???"];
+}
+
+
+- (IBAction)showAnswer:(id)sender
+{
+    
+    NSString *answer = [answers objectAtIndex:currentQuestionIndex];
+    
+    [answerField setText:answer];
+    
+    
+}
+
+
 @synthesize window = _window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
