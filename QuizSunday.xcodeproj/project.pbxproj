@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A6D128E1503B3DA005CBBAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6D128D1503B3DA005CBBAF /* UIKit.framework */; };
+		5A6D12901503B3DA005CBBAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6D128F1503B3DA005CBBAF /* Foundation.framework */; };
+		5A6D12921503B3DA005CBBAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6D12911503B3DA005CBBAF /* CoreGraphics.framework */; };
+		5A6D12981503B3DA005CBBAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A6D12961503B3DA005CBBAF /* InfoPlist.strings */; };
+		5A6D129A1503B3DA005CBBAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6D12991503B3DA005CBBAF /* main.m */; };
+		5A6D129E1503B3DA005CBBAF /* QuizSundayAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6D129D1503B3DA005CBBAF /* QuizSundayAppDelegate.m */; };
+		5A6D12A01503B3DA005CBBAF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A6D129F1503B3DA005CBBAF /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A6D12891503B3DA005CBBAF /* QuizSunday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizSunday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A6D128D1503B3DA005CBBAF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5A6D128F1503B3DA005CBBAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5A6D12911503B3DA005CBBAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5A6D12951503B3DA005CBBAF /* QuizSunday-Info.plist */ = {isa = PBXFileReference; path = "QuizSunday-Info.plist"; sourceTree = "<group>"; };
+		5A6D12971503B3DA005CBBAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A6D12991503B3DA005CBBAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A6D129B1503B3DA005CBBAF /* QuizSunday-Prefix.pch */ = {isa = PBXFileReference; path = "QuizSunday-Prefix.pch"; sourceTree = "<group>"; };
+		5A6D129C1503B3DA005CBBAF /* QuizSundayAppDelegate.h */ = {isa = PBXFileReference; path = QuizSundayAppDelegate.h; sourceTree = "<group>"; };
+		5A6D129D1503B3DA005CBBAF /* QuizSundayAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizSundayAppDelegate.m; sourceTree = "<group>"; };
+		5A6D129F1503B3DA005CBBAF /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A6D12861503B3DA005CBBAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6D128E1503B3DA005CBBAF /* UIKit.framework in Frameworks */,
+				5A6D12901503B3DA005CBBAF /* Foundation.framework in Frameworks */,
+				5A6D12921503B3DA005CBBAF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A6D127E1503B3DA005CBBAF = {
+			isa = PBXGroup;
+			children = (
+				5A6D12931503B3DA005CBBAF /* QuizSunday */,
+				5A6D128C1503B3DA005CBBAF /* Frameworks */,
+				5A6D128A1503B3DA005CBBAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A6D128A1503B3DA005CBBAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A6D12891503B3DA005CBBAF /* QuizSunday.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A6D128C1503B3DA005CBBAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A6D128D1503B3DA005CBBAF /* UIKit.framework */,
+				5A6D128F1503B3DA005CBBAF /* Foundation.framework */,
+				5A6D12911503B3DA005CBBAF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A6D12931503B3DA005CBBAF /* QuizSunday */ = {
+			isa = PBXGroup;
+			children = (
+				5A6D129C1503B3DA005CBBAF /* QuizSundayAppDelegate.h */,
+				5A6D129D1503B3DA005CBBAF /* QuizSundayAppDelegate.m */,
+				5A6D129F1503B3DA005CBBAF /* MainWindow.xib */,
+				5A6D12941503B3DA005CBBAF /* Supporting Files */,
+			);
+			path = QuizSunday;
+			sourceTree = "<group>";
+		};
+		5A6D12941503B3DA005CBBAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A6D12951503B3DA005CBBAF /* QuizSunday-Info.plist */,
+				5A6D12961503B3DA005CBBAF /* InfoPlist.strings */,
+				5A6D12991503B3DA005CBBAF /* main.m */,
+				5A6D129B1503B3DA005CBBAF /* QuizSunday-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A6D12881503B3DA005CBBAF /* QuizSunday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A6D12A31503B3DA005CBBAF /* Build configuration list for PBXNativeTarget "QuizSunday" */;
+			buildPhases = (
+				5A6D12851503B3DA005CBBAF /* Sources */,
+				5A6D12861503B3DA005CBBAF /* Frameworks */,
+				5A6D12871503B3DA005CBBAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuizSunday;
+			productName = QuizSunday;
+			productReference = 5A6D12891503B3DA005CBBAF /* QuizSunday.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A6D12801503B3DA005CBBAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5A6D12831503B3DA005CBBAF /* Build configuration list for PBXProject "QuizSunday" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5A6D127E1503B3DA005CBBAF;
+			productRefGroup = 5A6D128A1503B3DA005CBBAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A6D12881503B3DA005CBBAF /* QuizSunday */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A6D12871503B3DA005CBBAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6D12981503B3DA005CBBAF /* InfoPlist.strings in Resources */,
+				5A6D12A01503B3DA005CBBAF /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A6D12851503B3DA005CBBAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6D129A1503B3DA005CBBAF /* main.m in Sources */,
+				5A6D129E1503B3DA005CBBAF /* QuizSundayAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5A6D12961503B3DA005CBBAF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A6D12971503B3DA005CBBAF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A6D12A11503B3DA005CBBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A6D12A21503B3DA005CBBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A6D12A41503B3DA005CBBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuizSunday/QuizSunday-Prefix.pch";
+				INFOPLIST_FILE = "QuizSunday/QuizSunday-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5A6D12A51503B3DA005CBBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuizSunday/QuizSunday-Prefix.pch";
+				INFOPLIST_FILE = "QuizSunday/QuizSunday-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A6D12831503B3DA005CBBAF /* Build configuration list for PBXProject "QuizSunday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A6D12A11503B3DA005CBBAF /* Debug */,
+				5A6D12A21503B3DA005CBBAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A6D12A31503B3DA005CBBAF /* Build configuration list for PBXNativeTarget "QuizSunday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A6D12A41503B3DA005CBBAF /* Debug */,
+				5A6D12A51503B3DA005CBBAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A6D12801503B3DA005CBBAF /* Project object */;
+}
