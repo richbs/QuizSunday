@@ -8,8 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
-@interface QuizSundayAppDelegate : UIResponder <UIApplicationDelegate>
-
+@interface QuizSundayAppDelegate : UIResponder <UIApplicationDelegate> {
+    
+    int currentQuestionIndex;
+    
+    // Models
+    NSMutableArray *questions;
+    NSMutableArray *answers;
+    
+    // Views
+    IBOutlet UILabel *questionField;
+    IBOutlet UILabel *answerField;    
+    
+}
 @property (strong, nonatomic) IBOutlet UIWindow *window;
+- (IBAction)showQuestion:(id)sender;
+- (IBAction)showAnswer:(id)sender;
 
 @end
