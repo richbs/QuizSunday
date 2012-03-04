@@ -17,7 +17,7 @@
     NSMutableArray *answers;
     
     // Views
-    IBOutlet UILabel *questionField;
+    IBOutlet UILabel *questionField; // pointer
     IBOutlet UILabel *answerField;    
     
 }
