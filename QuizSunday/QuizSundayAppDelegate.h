@@ -18,11 +18,11 @@
     
     // Views
     IBOutlet UILabel *questionField; // pointer
-    IBOutlet UILabel *answerField;    
+    IBOutlet UILabel *answerField;  // pointer
     
 }
 @property (strong, nonatomic) IBOutlet UIWindow *window;
-- (IBAction)showQuestion:(id)sender;
-- (IBAction)showAnswer:(id)sender;
+- (IBAction)showQuestion:(id)sender; // target for action
+- (IBAction)showAnswer:(id)sender; // target for action
 
 @end
