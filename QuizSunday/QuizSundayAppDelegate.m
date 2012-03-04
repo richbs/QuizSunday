@@ -10,6 +10,31 @@
 
 @implementation QuizSundayAppDelegate
 
+- (id)init
+{
+    // Call the init from superclass
+    self = [super init];
+    if (self) {
+    
+        // create 2 arrays
+        questions = [[NSMutableArray alloc] init];
+        answers = [[NSMutableArray alloc] init];
+        
+        [questions addObject:@"What is 7+7?"];
+        [answers addObject:@"14"];
+        
+        [questions addObject:@"What is the capital of Vermont?"];
+        [answers addObject:@"Montpelier"];
+        
+        [questions addObject:@"From what is cognac made?"];
+        [answers addObject:@"Grapes, sir."];    
+    
+    }
+    
+    // return address of this controller
+    return self;
+}
+
 @synthesize window = _window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
