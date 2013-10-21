@@ -14,6 +14,7 @@
 		5A6D129A1503B3DA005CBBAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6D12991503B3DA005CBBAF /* main.m */; };
 		5A6D129E1503B3DA005CBBAF /* QuizSundayAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6D129D1503B3DA005CBBAF /* QuizSundayAppDelegate.m */; };
 		5A6D12A01503B3DA005CBBAF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A6D129F1503B3DA005CBBAF /* MainWindow.xib */; };
+		5AFD021C1815D2E300ED4025 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AFD021B1815D2E300ED4025 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +22,17 @@
 		5A6D128D1503B3DA005CBBAF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5A6D128F1503B3DA005CBBAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5A6D12911503B3DA005CBBAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5A6D12951503B3DA005CBBAF /* QuizSunday-Info.plist */ = {isa = PBXFileReference; path = "QuizSunday-Info.plist"; sourceTree = "<group>"; };
+		5A6D12951503B3DA005CBBAF /* QuizSunday-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuizSunday-Info.plist"; sourceTree = "<group>"; };
 		5A6D12971503B3DA005CBBAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5A6D12991503B3DA005CBBAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5A6D129B1503B3DA005CBBAF /* QuizSunday-Prefix.pch */ = {isa = PBXFileReference; path = "QuizSunday-Prefix.pch"; sourceTree = "<group>"; };
-		5A6D129C1503B3DA005CBBAF /* QuizSundayAppDelegate.h */ = {isa = PBXFileReference; path = QuizSundayAppDelegate.h; sourceTree = "<group>"; };
+		5A6D129B1503B3DA005CBBAF /* QuizSunday-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuizSunday-Prefix.pch"; sourceTree = "<group>"; };
+		5A6D129C1503B3DA005CBBAF /* QuizSundayAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizSundayAppDelegate.h; sourceTree = "<group>"; };
 		5A6D129D1503B3DA005CBBAF /* QuizSundayAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizSundayAppDelegate.m; sourceTree = "<group>"; };
 		5A6D129F1503B3DA005CBBAF /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		5AFD02181815D10B00ED4025 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		5AFD02191815D11C00ED4025 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		5AFD021A1815D20300ED4025 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
+		5AFD021B1815D2E300ED4025 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,9 @@
 		5A6D127E1503B3DA005CBBAF = {
 			isa = PBXGroup;
 			children = (
+				5AFD021A1815D20300ED4025 /* Icon-120.png */,
+				5AFD02191815D11C00ED4025 /* Icon@2x.png */,
+				5AFD02181815D10B00ED4025 /* Icon.png */,
 				5A6D12931503B3DA005CBBAF /* QuizSunday */,
 				5A6D128C1503B3DA005CBBAF /* Frameworks */,
 				5A6D128A1503B3DA005CBBAF /* Products */,
@@ -77,6 +85,7 @@
 				5A6D129C1503B3DA005CBBAF /* QuizSundayAppDelegate.h */,
 				5A6D129D1503B3DA005CBBAF /* QuizSundayAppDelegate.m */,
 				5A6D129F1503B3DA005CBBAF /* MainWindow.xib */,
+				5AFD021B1815D2E300ED4025 /* Images.xcassets */,
 				5A6D12941503B3DA005CBBAF /* Supporting Files */,
 			);
 			path = QuizSunday;
@@ -143,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AFD021C1815D2E300ED4025 /* Images.xcassets in Resources */,
 				5A6D12981503B3DA005CBBAF /* InfoPlist.strings in Resources */,
 				5A6D12A01503B3DA005CBBAF /* MainWindow.xib in Resources */,
 			);
@@ -222,6 +232,8 @@
 		5A6D12A41503B3DA005CBBAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QuizSunday/QuizSunday-Prefix.pch";
 				INFOPLIST_FILE = "QuizSunday/QuizSunday-Info.plist";
@@ -233,6 +245,8 @@
 		5A6D12A51503B3DA005CBBAF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QuizSunday/QuizSunday-Prefix.pch";
 				INFOPLIST_FILE = "QuizSunday/QuizSunday-Info.plist";
@@ -260,6 +274,7 @@
 				5A6D12A51503B3DA005CBBAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
